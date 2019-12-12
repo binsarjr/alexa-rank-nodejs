@@ -43,7 +43,7 @@ create a file called `index.js` to try some of the code below :
 This method will give your website ranking information from [alexa](https://www.alexa.com/)
 
 write the code below
-```
+```js
 const AlexaRank = require('alexa-rank-nodejs').default;
 
 (async () => {
@@ -53,7 +53,7 @@ const AlexaRank = require('alexa-rank-nodejs').default;
 ```
 then, run the command `node index.js`
 and this is the results
-```
+```json
 {
   status: 200,
   message: 'Data successfully retrieved',
@@ -76,7 +76,7 @@ and this is the results
 This method will give you global website ranking information
 
 write the code below
-```
+```js
 const AlexaRank = require('alexa-rank-nodejs').default;
 
 (async () => {
@@ -85,7 +85,7 @@ const AlexaRank = require('alexa-rank-nodejs').default;
 })()
 ```
 then, run the command `node index.js` and this is a results
-```
+```json
 {
   status: 200,
   message: 'Data successfully retrieved',
@@ -103,7 +103,7 @@ then, run the command `node index.js` and this is a results
 This method will give you website ranking information by country
 
 write the code below
-```
+```js
 const AlexaRank = require('alexa-rank-nodejs').default;
 
 (async () => {
@@ -112,7 +112,7 @@ const AlexaRank = require('alexa-rank-nodejs').default;
 })()
 ```
 then,run the command `node index.js` and this is a results
-```
+```json
 {
   status: 200,
   message: 'Data successfully retrieved',
