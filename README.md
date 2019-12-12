@@ -109,7 +109,7 @@ const AlexaRank = require('alexa-rank-nodejs').default;
 })()
 ```
 then,run the command `node index.js` and this is a results
-```json
+```
 {
   "status": 200,
   "message": "Data successfully retrieved",
