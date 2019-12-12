@@ -55,19 +55,19 @@ then, run the command `node index.js`
 and this is the results
 ```json
 {
-  status: 200,
-  message: 'Data successfully retrieved',
-  data: {
-    site_rank: '1',
-    top_keywords: [
-      'gmail',
+  "status": 200,
+  "message": "Data successfully retrieved",
+  "data": {
+    "site_rank": '1',
+    "top_keywords": [
+      "gmail",
       ...
-      'google'
+      "google"
     ],
-    similar_sites: [
-      'youtube.com',
+    "similar_sites": [
+      "youtube.com",
       ...
-      'blogspot.com'
+      "blogspot.com"
     ]
   }
 }
@@ -87,14 +87,14 @@ const AlexaRank = require('alexa-rank-nodejs').default;
 then, run the command `node index.js` and this is a results
 ```json
 {
-  status: 200,
-  message: 'Data successfully retrieved',
-  data: [
-    { rank: 1, site: 'Google.com' },
-    { rank: 2, site: 'Youtube.com' },
+  "status": 200,
+  "message": "Data successfully retrieved",
+  "data": [
+    { "rank": 1, "site": 'Google.com' },
+    { "rank": 2, "site": 'Youtube.com' },
     ...
-    { rank: 49, site: 'Yandex.ru' },
-    { rank: 50, site: 'Myshopify.com' }
+    { "rank": 49, "site": 'Yandex.ru' },
+    { "rank": 50, "site": 'Myshopify.com' }
   ]
 }
 ```
@@ -114,15 +114,15 @@ const AlexaRank = require('alexa-rank-nodejs').default;
 then,run the command `node index.js` and this is a results
 ```json
 {
-  status: 200,
-  message: 'Data successfully retrieved',
-  data: [
-    { rank: 1, site: 'Okezone.com' },
-    { rank: 2, site: 'Google.com' },
-    { rank: 3, site: 'Tribunnews.com' },
+  "status": 200,
+  "message": "Data successfully retrieved",
+  "data": [
+    { "rank:: 1, "site": "Okezone.com" },
+    { "rank": 2, "site": "Google.com" },
+    { "rank": 3, "site": "Tribunnews.com" },
     ...
-    { rank: 49, site: 'Akurat.co' },
-    { rank: 50, site: 'Ilovepdf.com' }
+    { "rank": 49, "site": "Akurat.co" },
+    { "rank": 50, "site": "Ilovepdf.com" }
   ]
 }
 ```
