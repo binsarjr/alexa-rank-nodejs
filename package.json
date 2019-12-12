@@ -1,0 +1,45 @@
+{
+    "name": "alexa-rank-nodejs",
+    "version": "1.0.3",
+    "description": "This module retrieves your website ranking information from alexa.com, and there are also some features for other ranking checks",
+    "main": "lib/index.js",
+    "types": "./lib",
+    "dependencies": {
+        "@types/cheerio": "^0.22.15",
+        "@types/request": "^2.48.3",
+        "@types/request-promise-native": "^1.0.17",
+        "cheerio": "^1.0.0-rc.3",
+        "fake-useragent": "^1.0.1",
+        "is-valid-domain": "0.0.11",
+        "request": "^2.88.0",
+        "request-promise-native": "^1.0.8",
+        "typescript": "^3.7.3"
+    },
+    "devDependencies": {
+        "tscpaths": "0.0.9"
+    },
+    "scripts": {
+        "build": "rm -rf ./lib && tsc -p .",
+        "watch": "tsc -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/binsarjr/alexa-rank-nodejs.git"
+    },
+    "keywords": [
+        "alexa",
+        "alexa-rank",
+        "alexa-rank-nodejs",
+        "domains",
+        "list",
+        "ranking",
+        "top",
+        "websites"
+    ],
+    "author": "Binsar Dwi Jasuma",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/binsarjr/alexa-rank-nodejs/issues"
+    },
+    "homepage": "https://github.com/binsarjr/alexa-rank-nodejs#readme"
+}
