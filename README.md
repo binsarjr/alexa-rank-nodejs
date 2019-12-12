@@ -58,15 +58,13 @@ and this is the results
   "status": 200,
   "message": "Data successfully retrieved",
   "data": {
-    "site_rank": '1',
+    "site_rank": 1,
     "top_keywords": [
       "gmail",
-      ...
       "google"
     ],
     "similar_sites": [
       "youtube.com",
-      ...
       "blogspot.com"
     ]
   }
@@ -90,11 +88,10 @@ then, run the command `node index.js` and this is a results
   "status": 200,
   "message": "Data successfully retrieved",
   "data": [
-    { "rank": 1, "site": 'Google.com' },
-    { "rank": 2, "site": 'Youtube.com' },
-    ...
-    { "rank": 49, "site": 'Yandex.ru' },
-    { "rank": 50, "site": 'Myshopify.com' }
+    { "rank": 1, "site": "Google.com" },
+    { "rank": 2, "site": "Youtube.com" },
+    { "rank": 49, "site": "Yandex.ru" },
+    { "rank": 50, "site": "Myshopify.com" }
   ]
 }
 ```
@@ -120,7 +117,6 @@ then,run the command `node index.js` and this is a results
     { "rank:: 1, "site": "Okezone.com" },
     { "rank": 2, "site": "Google.com" },
     { "rank": 3, "site": "Tribunnews.com" },
-    ...
     { "rank": 49, "site": "Akurat.co" },
     { "rank": 50, "site": "Ilovepdf.com" }
   ]
