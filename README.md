@@ -10,7 +10,7 @@
 
 I ❤️ NodeJS
 
-This module retrieves your website ranking information from [alexa](alexa.com), and there are also some features for other ranking checks
+This module retrieves your website ranking information from [alexa](https://www.alexa.com/), and there are also some features for other ranking checks
 
 # Includes
 - [request](https://www.npmjs.com/package/request)
@@ -40,7 +40,7 @@ There are several functions that you can use,
 this module already supports typescript, but in the example below I will give examples for javascript and,
 create a file called `index.js` to try some of the code below :
 ## 1. siteinfo()
-This method will give your website ranking information from [alexa](alexa.com)
+This method will give your website ranking information from [alexa](https://www.alexa.com/)
 
 write the code below
 ```
